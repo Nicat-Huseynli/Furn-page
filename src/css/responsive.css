@@ -1,0 +1,170 @@
+@media screen and ( max-width: 768px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+
+        .logo{
+            img{
+                width: 80px;
+                height: 100px;
+            }
+        }
+
+        nav{
+            display: none;
+        }
+
+        .burger-menu{
+            display: block;
+        }
+
+        .search-bar{
+            width: 120px;
+            display: none;
+        }
+
+        .right-nav{
+            position: absolute;
+            top: 40px;
+            right: -10px;
+            gap: 15px;
+
+            .my-acc{
+                display: none;
+            }
+
+        }
+        
+        .burger-menu{
+            display: block;
+        }
+        
+       
+    }
+
+    #section1{
+
+        .home-info{
+            padding: 20px 15px;
+            width: 90%;
+            margin-left: -108px;
+            
+            .home-sale{
+                font-size: 20px;
+            }
+
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+
+    .sec2{
+        .popular-products{
+            
+            text-align: center;
+
+            p{
+                width: 300px;
+            }
+        }
+
+        .category-list{
+            ul{
+                /* display: grid;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-rows:repeat(2,1fr) ;
+                gap: 15px;
+                justify-content: center; */
+
+                /* display: flex; */
+                margin-top: -30px;
+                width: 250px;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 15px;
+
+                li:hover{
+                    border-bottom: 1px solid gray;
+                }
+
+            }
+        }
+
+        .furnitures{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    #section3{
+        .best-furniture{
+            flex-direction: column;
+
+            div{
+                width: 100%;
+            }
+
+            .best-furniture-txt{
+
+                p, h2{
+                    width: 90%;
+                }
+
+                button{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    #section5{
+        .insta{
+            flex-direction: column;
+
+            button{
+                margin-top: 7px;
+            }
+
+            .insta-img{
+                width: 93%;
+                margin-inline: auto;
+            }
+        }
+    }
+
+    #section7{
+        .accessibility{
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        footer{
+            padding-top: 0;
+            height: 100%;            
+        }
+
+        .footer{
+            flex-direction: column;
+            padding-top: 35px;
+            gap: 40px;
+       
+
+            div{
+                width: 100%;
+            }
+
+            .footer-links{
+                p{
+                    margin-bottom: -30px;
+                }
+            }
+        }
+    }
+}
