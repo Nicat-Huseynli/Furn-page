@@ -284,6 +284,96 @@ header{
         }
 }
 
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.392);
+    z-index: 4000;
+}
+
+.your-cart{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5000;
+    width: 30%;
+    height: 100vh;
+    padding: 50px;
+    display: none;
+    flex-direction: column;
+    gap: 80px;
+
+    .your-cart-heading{
+        align-items: center;
+        h2{
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        i{
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            font-size: 20px;
+        }
+    }
+    
+    .your-products{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    
+        .your-product{
+            justify-content: space-between;
+            box-shadow: 0 0 10px rgb(222, 221, 221);
+            img{
+                width: 27%;
+                height: 80px;
+                margin-top: 15px;
+                object-fit: fill;
+            }
+        
+            .product-info{
+               width: 60%;
+               display: flex;
+               flex-direction: column;
+               gap: 10px;
+               font-size: 14px;
+               padding: 22px 5px;
+            }
+        }
+    }
+    
+    .total-price{
+        p{
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .your-cart-btn{
+        display: flex;
+        gap: 15px;
+
+        button{
+            background-color: #FD8F5F;
+            color: white;
+            border: none;
+            padding: 12px 35px;
+            width: 50%;
+            border-radius: 60px;
+            text-transform: uppercase;
+        }
+    }
+}
+
 
 #section1{
     position: relative;
@@ -343,7 +433,7 @@ header{
     
     }
 
-    
+
     /* .orange-bg::before{ */
         /* content: "";
         position: absolute;
