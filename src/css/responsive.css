@@ -126,6 +126,13 @@
 
     #section5{
         .insta{
+
+           div:first-child{
+              img{
+            width: 10%;
+        }
+           }
+           
             flex-direction: column;
 
             button{
