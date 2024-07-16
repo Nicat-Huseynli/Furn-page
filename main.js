@@ -1,5 +1,7 @@
 "use strict"
 
+// Change list color
+
 const furnitureItems = document.querySelectorAll('.furniture-list');
 
 furnitureItems.forEach(item => {
@@ -11,17 +13,20 @@ furnitureItems.forEach(item => {
   });
 });
 
+// Display search bar
 
 const searchIcon = document.querySelector('.fa-magnifying-glass')
 const searchBar = document.querySelector(".search-bar ")
 
 searchIcon.addEventListener('click', function(){
-  if(searchBar.style.display == 'none'){
-  searchBar.style.display = 'block'
+  if(searchBar.style.opacity == 0 ){
+  searchBar.style.opacity = 1
 } else{
-  searchBar.style.display = 'none'
+  searchBar.style.opacity = 0
 }
 })
+
+// Display hidden nav
 
 const burgerMenu = document.querySelector(".burger-menu")
 const hiddenNav = document.querySelector(".hidden-nav")
@@ -34,4 +39,19 @@ const navCloseBtn = document.querySelector(".fa-x")
 
 navCloseBtn.addEventListener("click", function(){
   hiddenNav.style.display = 'none'
+})
+
+// Sticky Navbar
+
+window.addEventListener("scroll", function(){
+  const navBar = document.querySelector(".nav-bar")
+  navBar.classList.toggle("sticky-nav", this.window.scrollY > 300)
+})
+
+// Go top button
+
+const goTop = document.querySelector(".go-top")
+
+  window.addEventListener("scroll", function(){
+    goTop.classList.toggle("sticky-btn", this.window.scrollY > 300)
 })
