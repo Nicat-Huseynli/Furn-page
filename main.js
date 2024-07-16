@@ -55,3 +55,12 @@ const goTop = document.querySelector(".go-top")
   window.addEventListener("scroll", function(){
     goTop.classList.toggle("sticky-btn", this.window.scrollY > 300)
 })
+
+// Sticky menu for Mobile
+
+window.addEventListener("scroll", function(){
+
+  burgerMenu.addEventListener("click", function(){
+    hiddenNav.classList.toggle("sticky-nav", window.scrollY > 300)
+  })
+})

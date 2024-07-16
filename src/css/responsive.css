@@ -29,12 +29,16 @@
 
         .right-nav{
             position: absolute;
-            top: 40px;
+            top: 35px;
             right: -10px;
             gap: 15px;
 
             .my-acc{
                 display: none;
+            }
+
+            .search-icon{
+                margin-top: -7px;
             }
 
         }
@@ -43,6 +47,17 @@
             display: block;
         }
         
+        .sticky-nav{
+            padding-bottom: 60px;
+            
+            .page-sub{
+                top: 180px;
+            }
+
+            .blog-sub{
+                top: 215px;
+            }
+        }
        
     }
 
