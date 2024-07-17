@@ -170,7 +170,8 @@
         }
     }
 
-    #section5{
+    #section5,
+    #about-section5{
         .insta{
 
            div:first-child{
@@ -192,7 +193,9 @@
         }
     }
 
-    #section7{
+    #section7,
+    #prod-section3,
+    #about-section6{
         .accessibility{
             flex-direction: column;
             gap: 25px;

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/product style.css">
+    <link rel="stylesheet" href="./src/css/product style responsive.css">
+    <link rel="stylesheet" href="./src/css/layout.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <header id="header" class="d-flex">
+        <div class="logo">
+          <img src="./assets/img/logo.png.webp" alt="" />
+        </div>
+        <div class="d-flex justify-between w-full">
+  
+          <div class="d-flex gap-[240px] nav-bar">
+      <nav>
+        <ul class="d-flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="page">
+            <a href="#">Page</a>
+            <ul class="page-sub">
+              <i class="fa-solid fa-sort-up" style="position: absolute;  top: -9.5px; color:#FD8F5F"></i>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Card</a></li>
+              <li><a href="#">Category</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">Product Details</a></li>
+            </ul>
+          </li> 
+          <li class="blog">
+            <a href="#">Blog</a>
+            <ul class="blog-sub">
+              <i class="fa-solid fa-sort-up" style="position: absolute;  top: -9.5px; color:#FD8F5F"></i>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Blog Details</a></li>
+              <li><a href="#">Elements</a></li>
+            </ul>
+          </li>
+          <li><a href="#section7">Contact</a></li>
+        </ul>
+      </nav>
+  
+      <div class="d-flex gap-[50px] pr-[55px] items-center right-nav">
+        <form class="d-flex" action="">
+          <input class="search-bar " type="search" placeholder="Search products">
+          <i class="fa-solid fa-magnifying-glass search-icon text-[20px] pt-[8px] hover:cursor-pointer"></i> 
+        </form>
+  
+        <p class="my-acc font-[550] text-[15px] hover:text-[#FD8F5F] hover:cursor-pointer">My Account</p>
+        <div class= "shopping-cart-icon relative hover:cursor-pointer">
+        <i class="fa-solid fa-cart-shopping  text-[25px] "></i>
+        <div class="product-count absolute font-[12px]">0</div>
+      </div>
+      <ul>
+        <li class="burger-menu hover:cursor-pointer">
+          <i class="fa-solid fa-bars text-[25px] ml-[7px]"></i>
+        </li>
+      </ul>
+      </div>
+    </div>
+  
+      <div class="hidden-nav">
+        <ul class="d-flex">
+          <li><a href="#">My Account</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="page">
+            <a href="#">Page</a>
+            <ul class="page-sub">
+              <i class="fa-solid fa-sort-up" style="position: absolute;  top: -9.5px; color:#FD8F5F"></i>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Card</a></li>
+              <li><a href="#">Category</a></li>
+              <li><a href="#">Checkout</a></li>
+              <li><a href="#">Product Details</a></li>
+            </ul>
+          </li> 
+          <li class="blog">
+            <a href="#">Blog</a>
+            <ul class="blog-sub">
+              <i class="fa-solid fa-sort-up" style="position: absolute;  top: -9.5px; color:#FD8F5F"></i>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Blog Details</a></li>
+              <li><a href="#">Elements</a></li>
+            </ul>
+          </li>
+          <li><a href="#section7">Contact</a></li>
+          <i class="fa-solid fa-x hover:cursor-pointer"></i>
+        </ul>
+  
+  
+      </div>
+  
+  
+      </div>
+  
+      <div class="overlay"></div>
+      <div class="your-cart">
+        <div class="your-cart-heading d-flex">
+          <h2>your cart</h2>
+          <i class="fa-solid fa-x cart-close-btn hover:cursor-pointer"></i>
+        </div>
+  
+      <div class="your-products">
+        <div class="your-product d-flex">
+            <div>
+              <img src="./assets/img/popular3.png.webp" alt="">
+            </div>    
+                
+            <div class="product-info">
+              <p class="product-name">Bly Microfiber / Microsuede 56" </p>
+              <p class="product-price"> 2 X $367 </p>
+            </div>        
+        </div>
+  
+      <div class="your-product d-flex">
+          <div>
+            <img src="./assets/img/popular9.png.webp" alt="">
+          </div>    
+              
+          <div class="product-info">
+            <p class="product-name">Bly Microfiber / Microsuede 56" </p>
+            <p class="product-price"> 1 X $367 </p>
+          </div>        
+      </div>
+    </div>
+  
+        <div class="total-price">
+          <p>Total: $1,101.00</p>
+        </div>
+  
+        <div class="your-cart-btn">
+          <button class="view-cart">view cart</button>
+          <button class="product-check-out">check out</button>
+        </div>
+      </div>
+  
+    </header>
+
+    <section id="prod-section1">
+        <div class="prod-home-bg"></div>
+        <img src="./assets/img/h2_hero1.png.webp" alt="">
+        <div class="prod-home-overlay"></div>
+
+        <div class="product-heading">
+            <h1>products</h1>
+            <p><a href="index.html">Home </a> > <a href="product.html"> Products</a></p>
+        </div>
+    </section>
+
+    <section id="prod-section2" class="sec2">
+        <div class="popular-products container" data-aos="fade-up" data-aos-once="true">
+            <h2>POPULAR PRODUCTS</h2>
+            <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+          </div> 
+          <div class="go-top d-flex justify-center items-center">
+            <a href="#header">
+              <i class="fa-solid fa-arrow-turn-up" style="color: #ffffff; font-size: 20px;"></i>
+            </a>
+          </div>
+
+          <div class="category-list container">
+            <ul class="d-flex ">
+              <li class="furniture-list"><a href="#">Sofa</a></li>
+              <li class="furniture-list"><a href="#">Table</a></li>
+              <li class="furniture-list"><a href="#">Chair</a></li>
+              <li class="furniture-list"><a href="#">Bed</a></li>
+              <li class="furniture-list"><a href="#">Lighting</a></li>
+              <li class="furniture-list"><a href="#">Decore</a></li>
+            </ul>
+            <hr>
+          </div>
+
+          <div class="d-flex gap-[25px] container furnitures">
+            <div class="furniture col-lg-4 col-md-6 col-xs-12">
+              <img src="./assets/img/popular1.png.webp" alt="">
+              <p class="model"><a href="#">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+      
+            <div class="furniture col-lg-4 col-md-6 col-xs-12">
+              <img src="./assets/img/popular2.png.webp" alt="">
+              <p class="model"><a href="#">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+      
+            <div class="furniture col-lg-4 col-md-6 col-xs-12">
+              <img src="./assets/img/popular3.png.webp" alt="">
+              <p class="model"><a href="#">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+          </div>
+
+          <div class="d-flex gap-[25px] container furnitures">
+            <div class="furniture col-lg-4 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="150" data-aos-once="true"
+            >
+              <img src="./assets/img/popular4.png.webp" alt="">
+              <p class="model"  style="margin-top: 15px;"><a href="№">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+      
+            <div class="furniture col-lg-4 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="350" data-aos-once="true">
+              <img src="./assets/img/popular5.png.webp" alt="">
+              <p class="model" style="margin-top: 15px;"><a href="№">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+      
+            <div class="furniture col-lg-4 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="550" data-aos-once="true">
+              <img src="./assets/img/popular6.png.webp" alt="">
+              <p class="model" style="margin-top: 15px;"><a href="№">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+          </div>
+
+          <div class="d-flex gap-[25px] container furnitures">
+            <div class="furniture col-lg-4 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="150" data-aos-once="true">
+              <img src="./assets/img/popular7.png.webp" alt="">
+              <p class="model"><a href="№">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+      
+            <div class="furniture col-lg-4 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="350" data-aos-once="true">
+              <img src="./assets/img/popular8.png.webp" alt="">
+              <p class="model"><a href="№">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+      
+            <div class="furniture col-lg-4 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="500" data-aos-delay="550" data-aos-once="true">
+              <img src="./assets/img/popular9.png.webp" alt="">
+              <p class="model"><a href="№">Bly Microfiber / Microsuede 56" Armless Loveseat</a></p>
+              <p class="price">$367</p>
+            </div>
+          </div>
+
+          <button class="d-flex none-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">discover more</button>
+    </section>
+
+    <section id="prod-section3">
+        <div style="background-color: #F2E1D9; height: 123vh; width: 98%;">
+        <div class="container d-flex accessibility">
+          <div class=" col-lg-3 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150" data-aos-once="true">
+              <img class="truck" src="./assets/img/services1.svg" alt="">
+            <p class="acc-header">Fast & Free Delivery</p>
+            <p class="acc-info">Free delivery on all orders</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="700" data-aos-delay="250" data-aos-once="true">
+            <img src="./assets/img/services2.svg" alt="">
+            <p class="acc-header">Secure Payment</p>
+            <p class="acc-info">Free delivery on all orders</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="700" data-aos-delay="350" data-aos-once="true">
+            <img src="./assets/img/services3.svg" alt="">
+            <p class="acc-header">Money Back Guarantee</p>
+            <p class="acc-info">Free delivery on all orders</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450" data-aos-once="true">
+              <img src="./assets/img/services4.svg" alt="">
+              <p class="acc-header">Online Support</p>
+              <p class="acc-info">Free delivery on all orders</p>
+          </div>
+        </div>
+     
+      <footer>
+        <div class="container d-flex justify-between footer">
+          <div class="footer-col-1 col-xs-12">   
+            <a href="#header"><img src="./assets/img/logo2_footer.png.webp" alt=""></a>
+            <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+            <div class="icons d-flex gap-[15px]">
+              <div class="twitter icon"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+              <div class="icon face"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></div>
+              <div class="icon pint"><i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i></div>
+            </div>
+          </div>
+  
+          <div class="footer-links col-xs-12">
+            <p>Quick links</p>
+            <ul>
+              <li><a href="#">Image Licensin</a></li>
+              <li><a href="#">Style Guide</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+  
+            </ul>
+          </div>
+  
+          <div class="footer-links col-xs-12">
+            <p>Shop Category</p>
+            <ul>
+              <li><a href="#">Image Licensin</a></li>
+              <li><a href="#">Style Guide</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+  
+            </ul>
+          </div>
+  
+          <div class="footer-links col-xs-12">
+            <p>Pertners </p>
+            <ul>
+              <li><a href="#">Image Licensin</a></li>
+              <li><a href="#">Style Guide</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+  
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+      </section>
+      
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+
+        <!-- Tailwind CSS link -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+
+        <script src="./main.js"></script>
+</body>
+</html>

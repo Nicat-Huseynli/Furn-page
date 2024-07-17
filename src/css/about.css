@@ -1,0 +1,22 @@
+#about-section2,
+#about-section3,
+#about-section4{
+
+    margin-bottom: 100px;
+
+    img{
+        /* margin-top: -25px; */
+        width: 75%;
+        margin-inline: auto;
+    }
+    
+    p{
+        width: 70%;
+        margin-bottom: -75px;
+    }
+}
+
+#about-section5{
+    margin-top: -60px;
+    margin-bottom: 80vh;
+}

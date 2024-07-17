@@ -79,7 +79,7 @@ header{
         width: 170px;
         height: 160px;
         position: absolute  ;
-        z-index: 5;
+        z-index: 41;
     }
 
     nav{
@@ -115,13 +115,22 @@ header{
         /* margin-top: 15px; */
         background-color: white;
         padding: 25px;
-        border-top:5px solid #FD8F5F;
+        border-top: 5px solid #FD8F5F;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
         box-shadow: 0 0 10px rgb(190, 190, 190);
+        justify-content: left;
         
         a{
             padding: 0;
+        }
+
+        li{
+            text-align: left;
+        }
+
+        li:hover{
+            padding-left: 5px;
         }
     }
 
@@ -216,7 +225,7 @@ header{
             top: 0;
             left: 0;
             right: 0;
-            z-index: 10;
+            z-index: 1000;
             padding-block: 15px;
             width: 100%;
             display: flex;
@@ -465,7 +474,9 @@ header{
 
 
 
-#section2{
+#section2,
+#prod-section2,
+#about-section2{
     position: relative;
 
     .go-top{
@@ -615,9 +626,9 @@ header{
     }
 }
 
-#section5{
+#section5,
+#about-section5{
     margin-top: 100px;
-
     .insta{
         width: 100%;
       div{ 
@@ -625,13 +636,14 @@ header{
         margin: 0;
     }
 
-    div:first-child{
+    .insta-col-1{
         display: flex;
         flex-direction: column;
         gap: 15px;
-        padding: 50px;
-        img{
+        padding: 30px 50px;
+        .insta-icon{
             width: 17%;
+            padding-left: 0;
         }
 
         h2{
@@ -685,7 +697,9 @@ header{
     margin-bottom: 70px;
 }
 
-#section7{
+#section7,
+#prod-section3,
+#about-section6{
     position: relative;
     .accessibility{
         padding-top: 100px;
