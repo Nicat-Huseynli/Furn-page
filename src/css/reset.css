@@ -29,3 +29,11 @@ img {
   object-fit: cover;
   vertical-align: middle;
 }
+
+label{
+  cursor: pointer;
+}
+
+input{
+  outline: none;
+}

@@ -36,8 +36,8 @@
             <a href="#">Page</a>
             <ul class="page-sub">
               <i class="fa-solid fa-sort-up" style="position: absolute;  top: -9.5px; color:#FD8F5F"></i>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Card</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html">Card</a></li>
               <li><a href="#">Category</a></li>
               <li><a href="#">Checkout</a></li>
               <li><a href="#">Product Details</a></li>
@@ -85,8 +85,8 @@
             <a href="#">Page</a>
             <ul class="page-sub">
               <i class="fa-solid fa-sort-up" style="position: absolute;  top: -9.5px; color:#FD8F5F"></i>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Card</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html">Card</a></li>
               <li><a href="#">Category</a></li>
               <li><a href="#">Checkout</a></li>
               <li><a href="#">Product Details</a></li>
@@ -219,6 +219,56 @@
         <div class="cart-subtotal d-flex">
             <p>Subtotal</p>
             <p>$720.00</p>
+        </div>
+        <hr>
+
+        <div class="cart-shipping d-flex">
+            <p>Shipping</p>
+
+                <form action="">
+                    <div>
+                        <label for="rate">Flat Rate: $5.00 </label>
+                        <input type="radio" id="rate">
+                    </div>
+                    <div>
+                        <label for="shipping">Free Shipping</label>
+                        <input type="radio" id="shipping">
+                    </div>
+                    <div>
+                        <label for="rate2">Flat Rate: $10.00 </label>
+                        <input type="radio" id="rate2">
+                    </div>
+                    <div>
+                        <label for="delivery">Local Delivery: $2.00 </label>
+                        <input type="radio" id="delivery">
+                    </div>
+
+                    <p style="font-weight: normal;">Calculate Shipping <i class="fa-solid fa-caret-down" style="color: #606060; margin-left: 7px"></i></p>
+
+                    
+                    <select name="" id="">
+                        <option value="Azerbaijan">Azerbaijan</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option>
+                    </select>
+
+                    <select name="" id="">
+                        <option value="Select a state">Select a state</option>
+                        <option value="Select a state">Select a state</option>
+                        <option value="Select a state">Select a state</option>
+                    </select>
+
+                    <input type="text" name="" id="" placeholder="Postcode/Zipcode" style="background-color: #f4f4f4; padding: 10px;">
+
+                    <button>update details</button>
+                </form>
+        </div>
+        <hr>
+
+        <div class="cart-footer">
+            <button>continue shopping</button>
+            <button>proceed to checkout</button>
         </div>
     </section>
 
