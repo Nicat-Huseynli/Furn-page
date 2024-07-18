@@ -1,0 +1,92 @@
+main{
+    background-image: url("/assets/img/h1_hero.png\ \(1\).webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 40px;
+}
+
+.login-container{
+    background-color: white;
+    width: 45%;
+    height: 90vh;
+    margin-inline: auto;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+
+    .login-header{
+        text-align: center;
+
+        h1{
+            margin-bottom: 10px;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+        label{
+            font-size: 17.5px;
+            color: #140C40;
+            font-weight: 600;
+        }
+
+        .username, 
+        .password{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: 100%;
+    
+            input{
+                padding: 15px;
+                font-size: 14px;
+                border: 1px solid #c0c0c0   
+            };
+        }
+
+        .keep-me-logged{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p{
+                color: #FD8F5F;
+            }
+
+            input{
+                width: 20px;
+                height: 20px;
+
+            }
+        }
+    }
+
+    .login-footer{
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 55px;
+
+        button{
+            background: #FD8F5F;
+            height: 60px;
+            padding: 10px 43px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        a{
+            color: #FD8F5F;
+        }
+
+    }
+
+}
