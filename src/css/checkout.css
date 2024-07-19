@@ -1,0 +1,286 @@
+#checkout-section2{
+
+    input, 
+    select,
+    textarea{
+        border: 1px solid #ebebeb;
+    }
+
+    input[type = "checkbox"]{
+        width: 20px;
+        height: 20px;
+    }
+
+    .checkout{
+        width: 80%;
+        max-width: 1200px;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+
+        .checkout-header{
+
+            
+            .checkout-subheading{
+                background-color: #f4f4f4;
+                padding: 10px 30px;
+                margin-top: 25px;
+                margin-bottom: 12px;
+
+                p{
+                    color: #1a1a1a
+                }
+
+                a{
+                    color: #FD8F5F;
+                    text-decoration: underline;
+                }
+            }
+
+            .chechkout-login{
+                padding-left: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                p{
+                    margin-top: 15px;
+                }
+
+                form{
+
+                    input[type = "text"], 
+                    input[type = "password"]{
+                        border: 1px solid #efefef;
+                        padding: 10px 20px;
+                        width: 30%;
+                        margin-right: 25px;
+                    }
+
+                    .chechkout-header-btn{
+
+                        margin-top: 25px;
+                        display: flex;
+                        gap: 30px;
+                        align-items: center;
+
+                        button{
+                            background: #FD8F5F;
+                            text-transform: uppercase;
+                            padding: 15px 44px;
+                            color: #fff;
+                            font-weight: 600;
+                            font-size: 15px;
+                            letter-spacing: 1px;
+                            cursor: pointer;
+                        }
+
+                        input[type = "checkbox"]{
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        div{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            label{
+                                font-size: 17px;
+                                color: #1a1a1a;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+       .billing-details{ 
+
+        display: flex;
+        /* gap: 20px; */
+        width: 100%; 
+        justify-content: space-between;
+        margin-inline: auto;
+
+        .billing-details-form{
+ 
+            width: 100%;
+            form { 
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            input, 
+            select{
+                padding: 10px 20px;
+            }
+
+            h2{
+                font-size: 18px;
+                color: #2a2a2a;
+                padding-bottom: 10px;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+    
+        .your-info{
+
+            display: flex;
+            gap: 25px;
+
+            input{
+                
+                width: 47%;
+            }
+        }
+
+        .one-input{
+            input,
+            select{
+                width: 97%;
+            }
+        }
+        }
+
+
+        
+        .create-acc,
+        .ship{
+            
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            
+        }
+
+        .shipping-details{
+            margin-top: 30px;
+            margin-bottom: 70px;
+
+            .ship{
+                margin-bottom: 25px;
+            }
+            
+            textarea{
+                padding: 15px;
+                width: 97%;
+                height: 110px;
+            }
+        }
+    }
+}
+        .your-order{
+            background-color: #efefef;
+            width: 40%;
+            padding: 25px;
+            /* height: 100%; */
+
+            h2{
+                border-bottom: 1px solid #dddddd;
+                font-size: 18px;
+                font-weight: 550;
+                color: #2a2a2a;
+                padding-bottom: 15px;
+            }
+
+            .order-info{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                
+
+                .order-header,
+                .order,
+                .subtotal-price,
+                .shipping-price,
+                .total-price{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    p{
+                        font-size: 14px;
+                        color: #797979;
+                        font-weight: 550;
+                    }
+
+
+                    h3{
+                        color: #2a2a2a;
+                        font-weight: 700;
+                    }
+                }
+
+                .order,
+                .total-price{
+                    
+                    p:nth-child(2){
+                        color: #2a2a2a;
+                    }
+                }
+
+                
+            }
+            .order-payment{
+                
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                }
+                
+                .payment{
+                    margin-top: 15px;
+
+                    label{
+                        padding-left: 7px;
+                        cursor: pointer;
+                        font-weight: 600;
+                        color: #2a2a2a;
+                        font-size: 13px;
+                    }
+
+                    .payment-info{
+                        margin-top: 10px;
+                        background-color: white;
+                        padding: 20px;
+                        color: #646D77;
+                        font-size: 14px;
+                    }
+                }
+
+                .accept-terms{
+                    
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    label{
+                        font-size: 12px;
+
+                        a{
+                            color: #FD8F5F;
+                        }
+                    }
+
+                }
+                button{
+                    background: #FD8F5F;
+                    text-transform: uppercase;
+                    width: 100%;
+                    padding: 17px 44px;
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    cursor: pointer;
+                    transition: color 0.4s linear;
+                }
+            }
+        }
+}

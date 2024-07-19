@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/product style.css">
     <link rel="stylesheet" href="./src/css/product style responsive.css">
-    <link rel="stylesheet" href="./src/css/about.css">
-    <link rel="stylesheet" href="./src/css/about responsive.css">
+    <link rel="stylesheet" href="./src/css/checkout.css">
     <link rel="stylesheet" href="./src/css/layout.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
@@ -155,72 +154,235 @@
   
     </header>
 
-    <section id="prod-section1">
+    <section id="checkout-section1">
         <div class="prod-home-bg"></div>
         <img src="./assets/img/h2_hero1.png.webp" alt="">
         <div class="prod-home-overlay"></div>
 
         <div class="product-heading">
-            <h1>about</h1>
-            <p><a href="index.html">Home </a> > <a href="about.html"> About</a></p>
+            <h1>chechkout</h1>
+            <p><a href="index.html">Home </a> > <a href="product.html"> Checkout</a></p>
         </div>
     </section>
 
-    <section id="about-section2" class="sec2" >
 
-        <div class="popular-products container" data-aos="fade-up" data-aos-once="true">
-            <h2>OUR STORY</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div> 
-          <div class="go-top d-flex justify-center items-center">
-            <a href="#header">
-              <i class="fa-solid fa-arrow-turn-up" style="color: #ffffff; font-size: 20px;"></i>
-            </a>
+    <section id="checkout-section2" class="sec2">
+
+      <div class="go-top d-flex justify-center items-center">
+        <a href="#header">
+          <i class="fa-solid fa-arrow-turn-up" style="color: #ffffff; font-size: 20px;"></i>
+        </a>
+      </div>  
+
+        <div class="checkout">
+            <div class="checkout-header">
+
+                <div class="checkout-subheading">
+                    <p>Returning Customer? <a href="login.html"> Click here to login</a></p>
+                </div>
+
+                <div class="chechkout-login">
+                        <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
+                    <form action="">
+                        <div>
+                            <input type="text" name="" id="" placeholder="Username or Email *">
+                            <input type="password" name="" id="" placeholder="Password *">
+                        </div>
+                        <div class="chechkout-header-btn">
+                              <button>log in</button>
+                            <div>
+                              <input type="checkbox" name="" id="acc"> 
+                              <label for="acc">Create an account?</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="checkout-subheading">
+                  <p>Have a coupon?  <a href="login.html"> Click here to enter your code</a></p>
+              </div>
+
+              <div class="chechkout-login">
+                  <form action="">
+                      <div>
+                          <input type="text" name="" id="" placeholder="Enter coupon code">
+                      </div>
+                      <div class="chechkout-header-btn">
+                            <button>apply coupon</button>
+                      </div>
+                  </form>
+              </div>
+            </div>
+
+            <div class="chechkout-footer d-flex">
+            <div class="billing-details">
+              <div class="billing-details-form">
+                <h2>Billing Details</h2>
+
+                <form action="">
+
+                  <div class="your-info">
+                      <input type="text" name="" id="" placeholder="First name *">
+                      <input type="password" name="" id="" placeholder="Last name *">
+                  </div>
+
+                  <div class="company-name one-input">
+                    <input type="text" name="" id="" placeholder="Company name">
+                  </div>
+
+                  <div class="your-info">
+                    <input type="tel"" id="" placeholder="Phone number *">
+                    <input type="password" name="" id="" placeholder="Email address *">
+                  </div>
+
+                  <div class="country one-input">
+                    <select name="" id="">
+                      <option value="country">Country</option>
+                      <option value="Azerbaijan">Azerbaijan</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Italy">Italy</option>
+                    </select>
+                  </div>
+
+                  <div class="address2 one-input">
+                    <input type="text" name="" id="" placeholder=" Address line 1 *">
+                  </div>
+
+                  <div class="address1 one-input">
+                    <input type="text" name="" id="" placeholder="Address line 1 *">
+                  </div>
+
+                  <div class="town one-input">
+                    <input type="text" name="" id="" placeholder="Town/City *">
+                  </div>
+
+                  <div class="district one-input">
+                    <select name="" id="" placeholder="country">
+                      <option value="district">District</option>
+                      <option value="Baku">Baku</option>
+                      <option value="Ottava">Ottava</option>
+                      <option value="Roma">Roma</option>
+                    </select>
+                  </div>
+
+                  <div class="postcode one-input">
+                    <input type="text" name="" id="" placeholder="Postcode/ZİP">
+                  </div>
+
+                  <div class="create-acc">
+                    <input type="checkbox" name="" id="create">
+                    <label for="create">Create an account?</label>
+                  </div>
+                  
+                  <div class="shipping-details">
+    
+                    <h2>Shipping Details</h2>
+    
+                      <div class="ship">
+                        <input type="checkbox" name="" id="ship">
+                        <label for="ship">Ship to a different address?</label>
+                      </div>
+    
+                      <div>
+                        <textarea name="" id="" placeholder="Order Notes"></textarea>
+                      </div>
+                  </div>
+              </form>
+              </div>
+
+
+            </div>
+
+
+            <div class="your-order">
+
+                <h2>Your Order</h2>
+
+              <div class="order-info">
+                <div class="order-header">
+                  <p>Product</p>
+                  <p>Total</p>
+                </div>
+                <hr>
+
+                <div class="order">
+                  <p>Fresh Blackberry</p>
+                  <p>x 02</p>
+                  <p>$720.00</p>
+                </div>
+                <hr>
+
+                <div class="order">
+                  <p>Fresh Tomates</p>
+                  <p>x 02</p>
+                  <p>$720.00</p>
+                </div>
+                <hr>
+
+                <div class="order">
+                  <p>Fresh Brocoli</p>
+                  <p>x 02</p>
+                  <p>$720.00</p>
+                </div>
+                <hr>
+
+                <div class="subtotal-price">
+                  <h3>SUBTOTAL</h3>
+                  <p style="font-weight: 600;">$2160.00</p>
+                </div>
+                <hr>
+
+                <div class="shipping-price">
+                  <h3>SHIPPING</h3>
+                  <p style="font-weight: 600;">Flat Rate: $50.00</p>
+                </div>
+                <hr>
+
+                <div class="total-price">
+                  <h3>TOTAL</h3>
+                  <p style="font-weight: 600;">$2210.00</p>
+                </div>
+                <hr>
+
+              </div>
+
+              <div class="order-payment">
+                  <form action="">
+                    <div class="payment">
+                      <input type="radio" id="check">
+                      <label for="check">CHECK PAYMENTS</label>
+                      <div class="payment-info">
+                        Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                      </div>
+                    </div>
+
+                    <div class="payment">
+                      <input type="radio" id="paypal">
+                      <label for="paypal">PAYPAL</label>
+                      <div class="payment-info">
+                        Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                      </div>
+                    </div>
+
+                    <div class="accept-terms">
+                      <input type="checkbox" name="" id="accept" required>
+                      <label for="accept">I’ve read and accept the  <a href="#">terms & conditions*</a></label>
+                    </div>
+
+                    <div>
+                      <button>proceed to paypal</button>
+                    </div>
+                  </form>
+              </div>
+            </div>
           </div>
 
-          <img src="./assets/img/about1.png.webp" alt="">
-
-    </section>
-
-    <section id="about-section3" class="sec2" >
-
-        <div class="popular-products container" data-aos="fade-up" data-aos-once="true">
-            <h2>JOURNEY START FROM</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div> 
-
-          <img src="./assets/img/about2.png.webp" alt="">
-
-    </section>
-
-    <section id="about-section4" class="sec2" >
-
-        <div class="popular-products container" data-aos="fade-up" data-aos-once="true">
-            <h2>2020</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        </div> 
-    </section>
-
-    <section id="about-section5">
-      <div class="d-flex insta">
-        <div class="col-lg-4 col-md-12 col-xs-12 insta-col-1">
-          <div class="insta-icon">
-          <img src="./assets/img/insta.png.webp" alt="">
-          </div>
-          <h2>GET INSPIRED WITH INSTAGRAM</h2>
-          <p>Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla. </p>
-          <button class="none-bg">discover more</button>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 insta-img">
-          <img src="./assets/img/instra1.png.webp" alt="">
-        </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 insta-img">
-          <img src="./assets/img/instra2.png.webp" alt="">
-        </div>
-      </div>
+
     </section>
 
-    <section id="about-section6">
+
+    <section id="chechkout-section3">
       <div style="background-color: #F2E1D9; height: 123vh; width: 98%;">
       <div class="container d-flex accessibility">
         <div class=" col-lg-3 col-md-6 col-xs-12" data-aos="fade-up" data-aos-duration="700" data-aos-delay="150" data-aos-once="true">
@@ -290,15 +452,21 @@
     </footer>
   </div>
     </section>
+  
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+        <script>
+        AOS.init();
+        </script>
+    
+        <!-- Tailwind CSS link -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+        <script src="./main.js"></script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <script src="./main.js"></script>
 </body>
 
-</html>
+
+</html> 

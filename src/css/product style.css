@@ -1,5 +1,7 @@
 #prod-section1,
-#cart-section1{
+#cart-section1,
+#category-section1,
+#checkout-section1{
 
     .prod-home-bg{
         background-color: #F2E1D9;
@@ -58,7 +60,9 @@
 #about-section3,
 #about-section4,
 #about-section5,
-#cart-section2{
+#cart-section2,
+#category-section2,
+#checkout-section2{
     position: relative;
     top: 60vh;
     display: flex;
@@ -67,6 +71,7 @@
 }
 
 #prod-section3,
-#cart-section3{
+#cart-section3,
+#chechkout-section3{
     top: 75vh;
 }

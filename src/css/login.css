@@ -16,7 +16,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 60px;
-    
+    box-shadow: 0 0 10px rgba(12, 12, 12, 0.527);
 
     .login-header{
         text-align: center;
