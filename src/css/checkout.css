@@ -284,3 +284,71 @@
             }
         }
 }
+
+
+@media screen and ( max-width: 768px){
+    #checkout-section2{
+        top: 50vh;
+
+        .checkout{
+            width: 90%;
+
+            .checkout-header{
+                width: 100%;
+                margin: 0;
+    
+    
+                .chechkout-login{
+        
+                    padding-left: 15px;  
+
+                    form{
+                        .email-password{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 15px;
+                        }
+                    }
+        
+                     input[type="text"], input[type="password"]{
+                        width: 95% !important;
+                    }
+
+                }
+            }
+
+            .chechkout-header-btn{
+                flex-direction: column;
+                margin-left: -15px !important;
+                button{
+                    width: 95%
+                    
+                }
+                div{
+                    width: 90%;
+                }
+            }
+        }
+
+
+        .chechkout-footer{
+            flex-direction: column;
+
+            .billing-details-form{
+                width: 100%;
+            }
+        }
+
+        .billing-details-form{
+            .your-info{
+                input{
+                    width: 45.5% !important;
+                }
+            }
+        }
+
+        .your-order{
+            width: 99%;
+        }
+    }
+}

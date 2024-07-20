@@ -196,7 +196,8 @@
     #section7,
     #prod-section3,
     #about-section6,
-    #cart-section3{
+    #cart-section3,
+    #chechkout-section3{
         .accessibility{
             flex-direction: column;
             gap: 25px;

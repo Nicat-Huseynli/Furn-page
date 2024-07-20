@@ -1,7 +1,8 @@
 @media screen and ( max-width: 768px){
     #prod-section1,
     #about-section5,
-    #cart-section1{
+    #cart-section1,
+    #checkout-section1{
         .prod-home-bg{
             width: 62%;
             height: 43vh;
