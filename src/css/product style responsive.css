@@ -3,7 +3,8 @@
     #about-section5,
     #cart-section1,
     #checkout-section1,
-    #category-section1{
+    #category-section1,
+    #contact-section1{
         .prod-home-bg{
             width: 62%;
             height: 43vh;
@@ -15,7 +16,7 @@
         }
 
         .product-heading{
-            left: 40px;
+            left: 20px;
             top: 160px;
         }
     }

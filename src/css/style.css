@@ -146,7 +146,7 @@ header{
 
     .blog-sub{
         left: 31rem;
-        height: 140px;
+        height: 100px;
     }
 
     .page:hover .page-sub{
@@ -479,7 +479,8 @@ header{
 #about-section2,
 #cart-section2,
 #checkout-section2,
-#category-section2{
+#category-section2,
+#contact-section2{
     position: relative;
 
     .go-top{
@@ -704,7 +705,8 @@ header{
 #prod-section3,
 #about-section6,
 #cart-section3,
-#chechkout-section3{
+#chechkout-section3,
+#contact-section4{
     position: relative;
     .accessibility{
         padding-top: 100px;
