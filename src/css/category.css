@@ -1,7 +1,200 @@
 #category-section2{
-  
-    .furnitures{
-        width: 50% !important;
 
+    select{
+        border: 1px solid rgb(243, 242, 242);
+        font-size: 16px;
+        outline: none;
+    }
+
+    .shop-with-us-header{
+
+        width: 79%;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .shop-with-us{
+
+
+            h2{
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.2;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: #7F85A8;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.6;
+            }
+        }
+
+        .filter-header{
+            display: flex;
+            gap: 150px;
+
+            .filter-header-left{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                width: 200px;
+
+                margin-bottom: 27px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.2;
+            }
+
+            .filter-header-right{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                .founded-prod{
+                    p{
+                        color: #1e2147;
+                        font-size: 16px;
+                        padding-top: 6px;
+                    }
+                }
+
+                .sort-by{
+                    label{
+                        padding-right: 15px;
+                        color: #1e2147;
+                        font-size: 16px;
+                        padding-top: 6px;
+                    }
+
+                    select{
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .category-main{
+        
+        display: flex;
+        width: 90%;
+        max-width: 1200px;
+        margin-inline: auto;
+        justify-content: space-between;
+
+        .filter-prod{
+            width: 23%;
+            height: 70vh;
+        }
+
+        .products{
+            width: 77%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .furnitures{
+                width: 94% !important;
+                
+                .furniture{
+                    height: 300px;
+
+                    .model{
+                        width: 80%;
+                        margin-inline: auto;
+                        margin-top: 7px;
+                        font-size: 14px;
+                    }
+
+                    .price{
+                        font-size: 18px;
+                    }
+                }
+        
+            }
+        }
+    }
+
+
+    .filter-prod{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .choose-prod{
+
+            padding: 30px 17px;
+            box-shadow: 0 0 10px rgb(218, 218, 218);
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                select{
+                    padding: 10px;
+                    color: #616875;
+                }
+
+            }
+
+        }
+
+        .price-range{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            label{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.2;
+            }
+
+            datalist {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            input[type="range"]{
+                accent-color: #FD8F5F;
+            }
+        }
+
+        .latest-prod{
+
+            box-shadow: 0 0 10px rgb(218, 218, 218);
+            padding: 30px 17px;
+
+            h4{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.2; 
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                label{
+                    padding-left: 10px;
+                    cursor: pointer;
+                    color: #666666;
+                    font-size: 16px;
+                    line-height: 1;
+                }
+
+                input{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+
+        }
     }
 }

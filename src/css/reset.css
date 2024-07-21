@@ -37,3 +37,7 @@ label{
 input{
   outline: none;
 }
+
+input[type = "checkbox" ]{
+  accent-color: #FD8F5F;
+}
