@@ -478,7 +478,8 @@ header{
 #prod-section2,
 #about-section2,
 #cart-section2,
-#checkout-section2{
+#checkout-section2,
+#category-section2{
     position: relative;
 
     .go-top{

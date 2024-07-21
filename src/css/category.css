@@ -6,22 +6,18 @@
         outline: none;
     }
 
-    .shop-with-us-header{
-
-        width: 79%;
-        margin-inline: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-
+        
         .shop-with-us{
-
+            width: 79%;
+            margin-inline: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
 
             h2{
                 font-size: 36px;
                 font-weight: 700;
                 line-height: 1.2;
-                margin-bottom: 20px;
                 text-transform: uppercase;
             }
 
@@ -33,50 +29,8 @@
             }
         }
 
-        .filter-header{
-            display: flex;
-            gap: 150px;
-
-            .filter-header-left{
-                display: flex;
-                align-items: center;
-                gap: 12px;
-                width: 200px;
-
-                margin-bottom: 27px;
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 1.2;
-            }
-
-            .filter-header-right{
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-
-                .founded-prod{
-                    p{
-                        color: #1e2147;
-                        font-size: 16px;
-                        padding-top: 6px;
-                    }
-                }
-
-                .sort-by{
-                    label{
-                        padding-right: 15px;
-                        color: #1e2147;
-                        font-size: 16px;
-                        padding-top: 6px;
-                    }
-
-                    select{
-                        padding: 10px;
-                    }
-                }
-            }
-        }
-    }
+                   }
+        
 
 
     .category-main{
@@ -87,114 +41,172 @@
         margin-inline: auto;
         justify-content: space-between;
 
-        .filter-prod{
-            width: 23%;
-            height: 70vh;
-        }
-
-        .products{
-            width: 77%;
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-
-            .furnitures{
-                width: 94% !important;
-                
-                .furniture{
-                    height: 300px;
-
-                    .model{
-                        width: 80%;
-                        margin-inline: auto;
-                        margin-top: 7px;
-                        font-size: 14px;
-                    }
-
-                    .price{
-                        font-size: 18px;
-                    }
-                }
-        
-            }
-        }
-    }
-
-
-    .filter-prod{
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        .choose-prod{
-
-            padding: 30px 17px;
-            box-shadow: 0 0 10px rgb(218, 218, 218);
-
-            form{
+            .products{
+                width: 77%;
                 display: flex;
                 flex-direction: column;
-                gap: 15px;
-
-                select{
-                    padding: 10px;
-                    color: #616875;
+                gap: 25px;
+          
+                .furnitures{
+                    width: 94% !important;
+                    
+                    .furniture{
+                        height: 300px;
+          
+                        .model{
+                            width: 80%;
+                            margin-inline: auto;
+                            margin-top: 7px;
+                            font-size: 14px;
+                        }
+          
+                        .price{
+                            font-size: 18px;
+                        }
+                    }
+            
                 }
-
+          
+                .filter-header-right{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 6px 30px;
+                    font-size: 16px;
+                    color: #1e2147;
+          
+                    .sort-by{
+                        label{
+                            padding-right: 15px;
+                        }
+          
+                        select{
+                            padding: 10px;
+                        }
+                  
             }
+          }
+    }
 
-        }
-
-        .price-range{
+          .filter-prod{
             display: flex;
             flex-direction: column;
-            gap: 10px;
-
-            label{
+            gap: 25px; 
+            width: 23%;
+            height: 80vh;
+          
+            .filter-header{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 1.2;
+            } 
+          
+            .choose-prod{
+          
+                padding: 30px 17px;
+                box-shadow: 0 0 100px rgba(244, 244, 244, 0.64);
+          
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+          
+                    select{
+                        padding: 10px;
+                        color: #616875;
+                    }
+          
+                }
+          
             }
-
-            datalist {
-                display: flex;
-                justify-content: space-between;
-            }
-
-            input[type="range"]{
-                accent-color: #FD8F5F;
-            }
-        }
-
-        .latest-prod{
-
-            box-shadow: 0 0 10px rgb(218, 218, 218);
-            padding: 30px 17px;
-
-            h4{
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 1.2; 
-            }
-
-            form{
+          
+            .price-range{
                 display: flex;
                 flex-direction: column;
-                gap: 15px;
-
+                gap: 10px;
+          
                 label{
-                    padding-left: 10px;
-                    cursor: pointer;
-                    color: #666666;
-                    font-size: 16px;
-                    line-height: 1;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.2;
                 }
-
-                input{
-                    width: 15px;
-                    height: 15px;
+          
+                datalist {
+                    display: flex;
+                    justify-content: space-between;
+                }
+          
+                input[type="range"]{
+                    accent-color: #FD8F5F;
                 }
             }
+          
+            .latest-prod{
+          
+                box-shadow: 0 0 100px rgba(244, 244, 244, 0.64);
+                padding: 30px 17px;
+          
+                h4{
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.2; 
+                }
+          
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+          
+                    label{
+                        padding-left: 10px;
+                        cursor: pointer;
+                        color: #666666;
+                        font-size: 16px;
+                        line-height: 1;
+                    }
+          
+                    input{
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+          
+            }
+          }
+  }
 
+
+@media screen and ( max-width: 768px){
+
+    .category-main{
+        flex-direction: column;
+        gap: 150px;
+
+        .filter-prod{
+            width: 98%;
+            margin-inline: auto;
+        }
+
+        .filter-header-right{
+            width: 98%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 0;
+            margin:0;
+        }
+
+        .products{
+            width: 98%;
+            margin-inline: auto;
+        }
+
+        .furniture{
+            height: 340px !important;
         }
     }
-}
+  }
