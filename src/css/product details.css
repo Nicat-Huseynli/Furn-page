@@ -139,3 +139,141 @@
         }
     }
 }
+
+#prod-detail-section3{
+    position: relative;
+    top: 70vh;
+    width: 80%;
+    max-width: 1200px;
+    margin-inline: auto;
+
+    nav{
+        display: flex;
+        gap: 25px;
+        margin-bottom: 50px;
+
+        div{
+            border: 1px solid #ddd;
+            border-radius: 50px;
+            padding: 10px 0;
+            width: 150px;
+            text-align: center;
+        }
+    }
+
+    .active{
+        background-color: #FD8F5F;
+        color: white;
+        border: none;
+    }
+
+
+    .prod-review-overall{
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 20px 0;
+
+        h5{
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .overall{
+            color: #FD8F5F;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .reviews{
+            font-size: 14px;
+            color: #797979;
+        }
+    }
+
+    .review-star{
+        padding-left: 35px;
+
+        h4{
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;    
+        }
+
+        p{
+            color: #797979;
+            margin-top: 7px;
+        }
+    }
+
+    .comments-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 40px;
+
+        .comments{
+            .comment-header{
+                align-items: center;
+                gap: 20px;
+                color: #797979;     
+
+                h4{
+                    color: #2a2a2a;
+                    margin-bottom: 5px;
+                    font-weight: 550;
+                }
+            }
+
+            .comment-txt{
+                margin-top: 15px;
+                p{
+                    color: #797979;
+                }
+            }
+        }
+    }
+
+    .add-review{
+
+        h4{
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        p{
+            color: #646D77;
+            font-weight: 550;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 30px;
+            
+            input, textarea{
+                border: 1px solid #ddd;
+                padding: 15px;
+            }
+
+            button{
+                align-self: flex-end;
+                width: 40%;
+                background: #FD8F5F;
+                text-transform: uppercase;
+                padding: 20px 44px;
+                color: #fff;
+                font-weight: 550;
+                font-size: 15px;
+                cursor: pointer;
+                transition: color 0.4s linear;
+                }
+            }
+        }
+
+    .prod-description-txt{
+            display: none;
+            color: #646D77;
+        }
+}
