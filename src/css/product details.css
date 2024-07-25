@@ -1,0 +1,141 @@
+#prod-detail-section2{
+    position: relative;
+    top: 60vh;
+
+    .product-info-container{
+        width: 80%;
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+
+    .product-images{
+        margin-right: -120px;
+
+        .product-photo{
+            width: 70%;
+        }
+
+        .product-photos{
+            display: flex;
+            gap: 21px;
+            margin-top: 15px;
+
+            img{
+                width: 15%;
+            }
+        }
+    }
+
+    .product-info{
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        h4{
+            font-size: 24px;
+            font-weight: bold;
+            color: #FD8F5F;
+            margin-bottom: 15px;
+        }
+
+
+        .product-status{
+            
+            border-bottom: 1px dotted #d1d1d1;
+
+            p{
+                color: #555;
+                margin-bottom: 20px;
+            }
+        }
+
+        .product-description{
+            margin-top: 20px;
+
+            p{
+                width: 470px;
+                color: #646D77;
+                line-height: 30px;
+                margin-bottom: 15px;
+                font-weight: normal;
+                line-height: 1.4;
+            }
+        }
+
+        .product-count{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 50px;
+            width: 110px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-top: 35px;
+        }
+
+        .product-btn{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-top: 25px;
+
+           button{
+                background: #FD8F5F;
+                text-transform: uppercase;
+                padding: 15px 44px;
+                color: #fff;
+                font-weight: 550;
+                font-size: 15px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                transition: color 0.4s linear;
+                border: 0;
+           }
+
+           div{
+            border: 1px solid #f3f3f372;
+            border-radius: 100%;
+            padding: 13px 15px;
+            box-shadow: 0 7px 10px rgb(202, 202, 202);
+            color: #FD8F5F;
+            cursor: pointer;
+           }
+        }
+
+        .product-social{
+            display: flex;
+            gap: 25px;
+            margin-top: 25px;
+            font-size: 20px;
+            
+            i{
+                background-color: black;
+                border-radius: 50%;
+                padding: 14px 15px;
+                transition: all .3s;
+                cursor: pointer;
+            }
+
+            .fa-facebook-f{
+                background-color: #3b5998;
+                padding: 14px 18px ;
+            }
+
+            .fa-twitter{
+                background-color: #55acee;;
+            }
+
+            .fa-linkedin-in{
+                background-color: #0077b5;
+            }
+
+            i:hover{
+                background-color: #FD8F5F;
+            }
+        }
+    }
+}

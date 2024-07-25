@@ -480,7 +480,8 @@ header{
 #cart-section2,
 #checkout-section2,
 #category-section2,
-#contact-section2{
+#contact-section2,
+#prod-detail-section2{
     position: relative;
 
     .go-top{
@@ -706,7 +707,8 @@ header{
 #about-section6,
 #cart-section3,
 #chechkout-section3,
-#contact-section4{
+#contact-section4,
+#prod-detail-section3{
     position: relative;
     .accessibility{
         padding-top: 100px;
