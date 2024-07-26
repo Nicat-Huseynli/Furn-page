@@ -414,11 +414,11 @@ input{
         }
 
         .prod-home-overlay{
-            width: 88.8%;
+            width: 87.4%;
         }
 
         .prod-home-bg{
-            width: 64.8%;
+            width: 61.6%;
             height: 50vh;
             top: 99px;
         }
@@ -426,6 +426,7 @@ input{
     
     #prod-detail-section2{
         width: 90%;
+        margin-inline: auto;
 
         .product-info-container{
             flex-direction: column;
@@ -436,6 +437,10 @@ input{
                     width: 100%;
                 }
             }
+        }
+
+        .product-photos{
+            width: 91%;
         }
 
     }
@@ -463,11 +468,11 @@ input{
 
         /* REVIEWS */
         .overal-container{
-            width: 110% !important;
-            margin-left: -25px;
+            width: 120% !important;
+            margin-left: -20px;
 
         .prod-review-overall{
-            width: 50%;
+            width: 40%;
             height: 170px;
         }
 
