@@ -3,7 +3,8 @@
 #category-section1,
 #checkout-section1,
 #contact-section1,
-#prod-detail-section1{
+#prod-detail-section1,
+#blog-section1{
 
     .prod-home-bg{
         background-color: #F2E1D9;
@@ -64,7 +65,8 @@
 #about-section5,
 #cart-section2,
 #category-section2,
-#checkout-section2{
+#checkout-section2,
+#blog-section3{
     position: relative;
     top: 60vh;
     display: flex;
@@ -75,6 +77,7 @@
 #prod-section3,
 #cart-section3,
 #chechkout-section3,
-#prod-detail-section4{
+#prod-detail-section4,
+#blog-section3{
     top: 75vh;
 }
