@@ -20,3 +20,37 @@
     margin-top: -60px;
     margin-bottom: 80vh;
 }
+
+@media screen and ( max-width: 768px){
+    
+    #about-section1{
+        .prod-home-bg{
+            width: 59%;
+        }
+
+        .prod-home-overlay{
+            width: 86.6%;
+        }
+    }
+
+    #about-section2,
+    #about-section3,
+    #about-section4{
+        width: 100% !important;
+        margin-inline: auto;
+        top: 55vh;
+
+        p{
+            width: 100%;
+        }
+    }
+
+
+    #about-section5{
+        .insta-icon{
+            display: none;
+            
+        }
+    }
+
+}
