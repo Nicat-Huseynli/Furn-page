@@ -5,7 +5,8 @@
     #checkout-section1,
     #category-section1,
     #contact-section1,
-    #blog-section1{
+    #blog-section1,
+    #blog-details-section1{
         .prod-home-bg{
             width: 62%;
             height: 43vh;

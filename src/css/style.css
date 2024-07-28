@@ -482,7 +482,8 @@ header{
 #category-section2,
 #contact-section2,
 #prod-detail-section2,
-#blog-section2{
+#blog-section2,
+#blog-details-section2{
     position: relative;
 
     .go-top{
@@ -710,7 +711,8 @@ header{
 #chechkout-section3,
 #contact-section4,
 #prod-detail-section4,
-#blog-section3{
+#blog-section3,
+#blog-details-section4{
     position: relative;
     .accessibility{
         padding-top: 100px;

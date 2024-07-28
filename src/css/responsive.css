@@ -200,7 +200,8 @@
     #chechkout-section3,
     #contact-section4,
     #prod-detail-section4,
-    #blog-section3{
+    #blog-section3,
+    #blog-details-section4{
         .accessibility{
             flex-direction: column;
             gap: 25px;
